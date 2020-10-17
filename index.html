@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <title>Menu</title>
+<!--       <base href="http://kebabhouse.com.co/" /> -->
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+      <!-- Facebook Open Graph -->
+      <meta property="og:title" content="Inicio" />
+      <meta property="og:description" content="" />
+      <meta property="og:image" content="" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="http://kebabhouse.com.co/" />
+      <!-- Facebook Open Graph end -->
+
+
+      <style type="text/css">
+
+         /*
+HelveticaNeueLTStd-Bd.otf
+HelveticaNeueLTStd-Cn.otf
+HelveticaNeueLTStd-Lt.otf
+         */
+         @font-face {
+  font-family: "HelveticaNeueLTStd-Bd";
+  src: url("fonts/HelveticaNeueLTStd-Bd.otf");
+}
+
+         @font-face {
+  font-family: "HelveticaNeueLTStd-Cn";
+  src: url("fonts/HelveticaNeueLTStd-Cn.otf");
+}s
+
+         @font-face {
+  font-family: "HelveticaNeueLTStd-Lt";
+  src: url("fonts/HelveticaNeueLTStd-Lt.otf");
+}
+
+
+         .img-responsive{
+            margin: 0 auto;
+         }
+         body{
+            background: black;
+             font-family: "HelveticaNeueLTStd-Cn";
+             margin: 0;
+         }
+
+         .bg{
+            background: #9C232A;
+           
+         }
+         .p-0 {
+         padding: 0 !important;
+         }
+         .O-0{
+            opacity: 0
+         }
+         .flex{
+            display: flex;
+           
+         }
+         .texto{
+             background: #fff;
+             flex-grow: 1;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             width: 50%
+
+         }
+
+         .texto2{
+            background: #9C232A;
+             flex-grow: 1;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             width: 50%
+
+         }
+
+         .parrafo2{
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            text-align: center;
+             font-family: "HelveticaNeueLTStd-Cn";
+             color: #fff;
+         }
+
+         .precio2{
+            color:#F3E83D;
+            font-family: "HelveticaNeueLTStd-Bd";
+            font-size: 35px;
+         }
+
+         .imgen{
+             width: 50%;
+                 margin-bottom: -7px;
+         }
+
+         .parrafo{
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            text-align: center;
+             font-family: "HelveticaNeueLTStd-Cn";
+             color: #000;
+         }
+         .titulo{
+           
+            font-size: 60px;
+         }
+         .descrpcion{
+                font-size: 30px;
+         }
+
+         
+         .precio{
+            color:#7F1F1A;
+            font-family: "HelveticaNeueLTStd-Bd";
+            font-size: 35px;
+         }
+
+         .img-responsive2{
+            width: 100%;
+         }
+
+         .footer{
+            color:white;
+            padding-top: 50px;
+            font-family: "HelveticaNeueLTStd-Cn";
+            background: url(img/FOOTER.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+    justify-content: space-around;
+            
+         }
+
+         .footer a {
+            color:white;
+            text-decoration: none;
+         }
+         .contenedor-footer1{
+            display: flex;
+            justify-content: space-around;
+         }
+         .elances{
+
+         }
+
+         .footer-ul li{
+         
+            list-style: none;
+            margin-right: 20px;
+         }
+
+         .footer-ul {
+            margin: 0;
+         }
+
+         .contenedor-footer2{
+            display: flex;
+             text-align: center;
+        
+            flex-direction: column;
+         }
+         .img-responsive{
+            max-width: 100%;
+         }
+
+         .con-img{
+            display: flex;
+            justify-content: center;
+         }
+
+                  .con-img img{
+            margin-left: 10px;
+         }
+.compartir1{
+  background: #9C232A;
+width: 33.33%
+}
+.compartir2{
+   background: white;
+width: 33.33%
+}
+.compartir3{
+   background: #9C232A;
+width: 33.33%
+}
+.compartir1 li, .compartir2 li, .compartir3 li{
+list-style: none
+}
+.compartir1 h3, .compartir2 h3, .compartir3 h3{
+text-align: center;
+}
+
+.compartir1 h2, .compartir2 h2, .compartir3 h2{
+text-align: center;
+}
+.compartir1 h2, .compartir3 h2{
+   color: #F3E83D
+}
+.compartir1 h3, .compartir3 h3{
+   color: white
+}
+.compartir2 h2
+{
+   color:#7F1F1A;
+}
+.contenedor-footer2 h2{
+margin-top: 0;
+}
+.row{margin-bottom: -7px;}
+
+@media (max-width: 830px) {
+.titulo {
+    font-size: 25px;
+}
+.descrpcion {
+    font-size: 20px;
+}
+.precio, .precio2 {
+   
+    font-size: 23px;
+}
+
+.contenedor-footer2 h2 {
+   
+    font-size: 20px;
+   
+}
+
+.contenedor-footer3 h3, .contenedor-footer4 h3 {
+   font-size: 15px;
+}
+
+.con-img img {
+   
+    max-width: 27px;
+}
+
+
+}
+
+
+
+
+
+
+
+      </style>
+   </head>
+    <div class="container-fluid">
+        <div class="row">
+            <img src="img/BANNER MENU WEB-01.png" class="img-responsive" alt="Cinque Terre" />
+        </div>
+    </div>
+
+ 
+                                               
+
+    
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/FALAFEL DE ENTRADA.png"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">Hummus + Falafel</div>
+            <div class="descrpcion">para 2 personas</div>
+            <div class="precio">$ 15.500</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">hummus</div>
+            <div class="descrpcion"></div>
+            <div class="precio2">$ 8.500</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/HUMMUS ENTRADA.png" class="img-responsive2">
+      </div>
+
+   </div>
+                                                     
+
+
+    
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/FALAFEL.png"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">Falafel</div>
+            <div class="descrpcion">x 2</div>
+            <div class="precio">$ 3.900</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">Kibeb</div>
+            <div class="descrpcion"></div>
+            <div class="precio2">$ 3.900</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/KIBBE DE ENTRADA.png" class="img-responsive2">
+      </div>
+
+   </div>
+
+    
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/PAPAS A LA FRANCESA.png"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">Papas fritas</div>
+            <div class="descrpcion"></div>
+            <div class="precio">$ 4.700</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">Shawarma de Carne</div>
+            <div class="descrpcion">Láminas de carne, vegetales y salsa</div>
+            <div class="precio2">$ 17.900</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/SHAWARMA DE CARNE.png" class="img-responsive2">
+      </div>
+
+   </div>
+
+
+    
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/SHAWARMA DE POLLO.png"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">Shawarma de Pollo</div>
+            <div class="descrpcion">Láminas de pollo, vegetales y salsa</div>
+            <div class="precio">$ 17.900</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">Shawarma Mixto</div>
+            <div class="descrpcion">Láminas de carne y pollo, vegetales y salsa</div>
+            <div class="precio2">$ 18.500</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/SHAWARMA MIXTO.png" class="img-responsive2">
+      </div>
+
+   </div>
+
+
+    
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">Shawarma Vegetariano</div>
+            <div class="descrpcion">sándwich árabe en pan tipo servilleta (falafel, vegetales y salsa) </div>
+            <div class="precio">$ 17.900</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">SHAWARMA ALEMAN</div>
+            <div class="descrpcion">Carnes mixtas, vegetales, orgánicos, salsa de la casa envuelto en pan árabe tipo servilleta con papitas
+y queso en su interior
+</div>
+            <div class="precio2">$ 22.000</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/SHAWARMA ALEMAN.png" class="img-responsive2">
+      </div>
+
+   </div>
+
+
+    
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/SHAWARMA DE CARNE.png"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">KEBAB Carne</div>
+            <div class="descrpcion">Sándwich árabe en pan pita (láminas de carne, vegetales y salsa) </div>
+            <div class="precio">$ 21.000</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">KEBAB de Pollo</div>
+            <div class="descrpcion">Sándwich árabe en pan pita (láminas de carne y pollo, vegetales y salsa)</div>
+            <div class="precio2">$ 21.000</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/" class="img-responsive2">
+      </div>
+
+   </div>
+
+
+
+    
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/SHAWARMA DE CARNE.png"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">KEBAB Mixto</div>
+            <div class="descrpcion">Sándwich árabe en pan pita (láminas de carne y pollo, vegetales y salsa)</div>
+            <div class="precio">$ 22.000</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">KEBAB vegetariano</div>
+            <div class="descrpcion">Sándwich árabe en pan pita (láminas de carne y pollo, vegetales y salsa)</div>
+            <div class="precio2">$ 21.000</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/" class="img-responsive2">
+      </div>
+
+   </div>
+
+      <div class="row">
+      <img src="img/BANNER PARA COMPARTIR-01-min.png" class="img-responsive" alt="Cinque Terre" />
+   </div>
+
+    <div class="flex">
+       <div class="compartir1">
+
+         <h3>2 personas</h3>
+          <ul>
+<li>1 Shawarma</li>
+<li>2 Kibbeh</li>
+<li>4 Falafel</li>
+<li>1 Arroz con almendras</li>
+<li>1 Ensalada Tabuleh</li>
+<li>1 Hummus + pan Árabe</li>
+</ul>
+<h2>$ 36.500</h2>
+
+       </div>
+       <div class="compartir2">
+          <h3>4 personas</h3>
+          <ul>
+<li>2 Shawarma</li>
+<li>4 Kibbeh</li>
+<li>8 Falafel</li>
+<li>2 Arroz con almendras</li>
+<li>2 Ensalada Tabuleh</li>
+<li>2 Hummus + pan Árabe</li>
+
+              
+             
+             
+             
+             
+             
+          </ul>
+          <h2>$ 73.000</h2>
+       </div>
+       <div class="compartir3">
+          <h3>6 personas</h3>
+<ul>
+<li>3 Shawarma</li>
+<li>6 Kibbeh</li>
+<li>12 Falafel</li>
+<li>3 Arroz con almendras</li>
+<li>3 Ensalada Tabuleh</li>
+<li>3 Hummus + pan Árabe</li>
+</ul>
+<h2>$ 109.000</h2>
+       </div>
+    </div>
+
+
+
+
+
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/SHAWARMA DE CARNE.png"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">KAFTA: BROCHETAS DE RES</div>
+            <div class="descrpcion">200 gr. de brochetas libanesas, hummus, arroz con almendras, ensalada tabuleh + pan</div>
+            <div class="precio">$ 22.900</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+
+
+
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">ENSALADA ÁRABE</div>
+            <div class="descrpcion">(carne - pollo – vegetariana) mix de lechugas, tabuleth, rábano en rodaja, pepino en rodaja</div>
+            <div class="precio2">$16.500</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/SHAWARMA DE POLLO.png" class="img-responsive2">
+      </div>
+
+   </div>
+
+
+    
+
+ 
+
+
+
+   <div class="flex">
+      <div class="imgen">
+         <img src="img/SHAWARMA DE CARNE.png"  class="img-responsive2">
+      </div>
+      <div class="texto">
+         <div class="parrafo">
+            <div class="titulo">BOWL ÁRABE</div>
+            <div class="descrpcion">(carne – pollo – kafta - vegetariana) Bowl de carne, arroz con almendras, tabuleh, pimenton rojo, repollo morado, hummus + pan árabe crocante.</div>
+            <div class="precio">$ 19.500</div>
+            
+         </div>
+         
+      </div>
+   </div>
+
+      <div class="flex">
+     
+      <div class="texto2">
+         <div class="parrafo2">
+            <div class="titulo">COMBO EXPRESS ARABE</div>
+            <div class="descrpcion">(Katfa - Quibbe – vegetariana) proteína de tu elección, ensalada, hummus, arroz con almendras (incluye bebida)</div>
+            <div class="precio2">$ 16.400</div>
+            
+         </div>
+         
+      </div>
+
+
+      <div class="imgen">
+         <img src="img/SHAWARMA DE POLLO.png" class="img-responsive2">
+      </div>
+
+   </div>
+
+
+    
+  
+
+<footer class="footer">
+
+   <div class="contenedor-footer1">
+      <nav>
+         <ul class="footer-ul">
+            
+               <li class="footer-li"><a href="#">Home</a></li>
+               <li class="footer-li"><a href="#">Menu</a></li>
+               <li class="footer-li"><a href="#">Quienes somos</a></li>
+               <li class="footer-li"><a href="#">Contactenos</a></li>
+            
+         </ul>
+      </nav>
+   
+</div>
+
+  <div class="contenedor-footer2">
+   <h2>Siguenos en nuestras redes</h2>
+   <div class="con-img">
+    <img src="img/ICONO FACEBOOK.png" alt="">
+      <img src="img/ICONO INSTAGRAM.png" alt="">
+      <img src="img/ICONO WHATSAP.png" alt="">
+</div>
+
+   </div>
+ <div class="contenedor-footer3">
+   <h3>POBLADO</h3>
+   <h3>ENVIGADO</h3>
+   <h3>LAURELES</h3>
+   </div>
+
+
+ <div class="contenedor-footer4">
+   <h3>CODIGO QR</h3>
+
+
+</div>
+</footer>
+
+</body>
+
+</html>
